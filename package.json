@@ -1,0 +1,25 @@
+{
+  "name": "mad-monkey-restaurant",
+  "version": "1.0.0",
+  "description": "The Mad Monkey - Arabic & Indian Fusion Restaurant Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "echo 'Build complete'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "restaurant",
+    "food",
+    "cairo",
+    "arabic",
+    "indian",
+    "delivery",
+    "biryani"
+  ],
+  "author": "The Mad Monkey Restaurant",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
