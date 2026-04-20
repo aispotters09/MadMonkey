@@ -1,10 +1,5 @@
 {
   "version": 2,
-  "framework": null,
-  "outputDirectory": null,
-  "installCommand": null,
-  "buildCommand": null,
-  "devCommand": null,
   "rewrites": [
     {
       "source": "/(.*)",
