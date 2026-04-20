@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mad Monkey - Arabic & Indian Fusion Restaurant</title>
+    <meta name="description" content="Bold Arabic & Indian flavors delivered fresh in Cairo. Order Chicken Biryani, Fried Rice, and more from The Mad Monkey.">
+    <meta name="keywords" content="Arabic food, Indian food, Cairo restaurant, delivery, biryani, fried rice, Mad Monkey, halal food, fast delivery">
+    <meta name="author" content="The Mad Monkey Restaurant">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="The Mad Monkey - Arabic & Indian Fusion Restaurant">
+    <meta property="og:description" content="Bold Arabic & Indian flavors delivered fresh in Cairo. Order Chicken Biryani, Fried Rice, and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://madmonkey.vercel.app">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1589302168068-9640c9a4f4be?w=1200">
+    <meta property="og:image:alt" content="Chicken Biryani from The Mad Monkey Restaurant">
+    <meta property="og:locale" content="en_EG">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Mad Monkey - Arabic & Indian Fusion">
+    <meta name="twitter:description" content="Bold flavors delivered fresh in Cairo">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1589302168068-9640c9a4f4be?w=1200">
+    <link rel="canonical" href="https://madmonkey.vercel.app">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-monkey"></i>
+                <span>Mad Monkey</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#best-sellers" class="nav-link">Best Sellers</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#order" class="nav-link">Order</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/201234567890" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Unleash the Flavor at <span class="brand">Mad Monkey</span>
+            </h1>
+            <p class="hero-subtitle">Bold Arabic & Indian flavors delivered fresh in Cairo</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#order" class="btn btn-secondary">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers Section -->
+    <section id="best-sellers" class="best-sellers">
+        <div class="container">
+            <h2 class="section-title">Best Sellers</h2>
+            <div class="best-sellers-grid">
+                <div class="menu-item featured">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1589302168068-9640c9a4f4be?w=400" alt="Chicken Biryani">
+                        <span class="best-seller-badge">Best Seller</span>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Chicken Biryani</h3>
+                        <p>Aromatic basmati rice with tender chicken and exotic spices</p>
+                        <span class="price">EGP 120</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400" alt="Chicken Fried Rice">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Chicken Fried Rice</h3>
+                        <p>Wok-fried rice with chicken, vegetables, and secret spices</p>
+                        <span class="price">EGP 85</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400" alt="Veg Fried Rice">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Veg Fried Rice</h3>
+                        <p>Fresh vegetables stir-fried with aromatic spices and rice</p>
+                        <span class="price">EGP 75</span>
+                    </div>
+                </div>
+                <div class="menu-item featured">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=400" alt="Chicken Pakoda">
+                        <span class="best-seller-badge">Best Seller</span>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Chicken Pakoda</h3>
+                        <p>Crispy fried chicken fritters with spicy Indian herbs</p>
+                        <span class="price">EGP 65</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Mad Monkey</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-fire"></i></div>
+                    <h3>Rich Spicy Flavors</h3>
+                    <p>Authentic Arabic & Indian fusion that tantalizes your taste buds</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Fast Delivery</h3>
+                    <p>Hot food delivered to your doorstep in 30 minutes or less</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Daily sourced fresh ingredients for the best quality meals</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-money-bill-wave"></i></div>
+                    <h3>Affordable Meals</h3>
+                    <p>Great tasting food that won't break your wallet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="biryani">Biryani</button>
+                <button class="tab-btn" data-tab="rice">Rice & Noodles</button>
+                <button class="tab-btn" data-tab="appetizers">Appetizers</button>
+                <button class="tab-btn" data-tab="drinks">Drinks</button>
+            </div>
+            <div class="menu-content">
+                <div class="tab-content active" id="biryani">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1589302168068-9640c9a4f4be?w=400" alt="Chicken Biryani">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Chicken Biryani</h3>
+                                <p>Aromatic basmati rice with tender chicken</p>
+                                <span class="price">EGP 120</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400" alt="Mutton Biryani">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Mutton Biryani</h3>
+                                <p>Rich and flavorful mutton with fragrant rice</p>
+                                <span class="price">EGP 150</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400" alt="Veg Biryani">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Veg Biryani</h3>
+                                <p>Mixed vegetables with aromatic spices and rice</p>
+                                <span class="price">EGP 90</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=400" alt="Egg Biryani">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Egg Biryani</h3>
+                                <p>Hard-boiled eggs with spiced basmati rice</p>
+                                <span class="price">EGP 80</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="rice">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400" alt="Chicken Fried Rice">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Chicken Fried Rice</h3>
+                                <p>Wok-fried rice with chicken and vegetables</p>
+                                <span class="price">EGP 85</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400" alt="Veg Fried Rice">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Veg Fried Rice</h3>
+                                <p>Fresh vegetables stir-fried with rice</p>
+                                <span class="price">EGP 75</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400" alt="Noodles">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Chicken Noodles</h3>
+                                <p>Spicy chicken with stir-fried noodles</p>
+                                <span class="price">EGP 90</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=400" alt="Schezwan Rice">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Schezwan Fried Rice</h3>
+                                <p>Fiery Schezwan style fried rice</p>
+                                <span class="price">EGP 95</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="appetizers">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=400" alt="Chicken Pakoda">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Chicken Pakoda</h3>
+                                <p>Crispy fried chicken fritters</p>
+                                <span class="price">EGP 65</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1528620939334-1a3111244a3a?w=400" alt="Samosa">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Veg Samosa</h3>
+                                <p>Crispy pastry with spiced vegetables</p>
+                                <span class="price">EGP 40</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400" alt="Spring Rolls">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Spring Rolls</h3>
+                                <p>Crispy vegetable spring rolls</p>
+                                <span class="price">EGP 50</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=400" alt="Hummus">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Hummus with Pita</h3>
+                                <p>Creamy hummus with warm pita bread</p>
+                                <span class="price">EGP 45</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="drinks">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1544145945-f9042544047e?w=400" alt="Mango Lassi">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Mango Lassi</h3>
+                                <p>Sweet and creamy mango yogurt drink</p>
+                                <span class="price">EGP 35</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1544145945-f9042544047e?w=400" alt="Mint Lemonade">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Mint Lemonade</h3>
+                                <p>Refreshing mint and lemon drink</p>
+                                <span class="price">EGP 30</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400" alt="Soda">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Soft Drinks</h3>
+                                <p>Coke, Pepsi, Sprite, Fanta</p>
+                                <span class="price">EGP 25</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1570197786415-9a5b5e6a4b3c?w=400" alt="Fresh Juice">
+                            </div>
+                            <div class="menu-item-content">
+                                <h3>Fresh Juice</h3>
+                                <p>Orange, Apple, Mango, Pineapple</p>
+                                <span class="price">EGP 40</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order">
+        <div class="container">
+            <h2 class="section-title">Order Now</h2>
+            <div class="order-content">
+                <p class="order-subtitle">Get your favorite Mad Monkey meals delivered fast!</p>
+                <div class="order-buttons">
+                    <a href="https://www.talabat.com/egypt" target="_blank" class="btn btn-primary btn-large">
+                        <i class="fas fa-motorcycle"></i>
+                        Order Now via Talabat
+                    </a>
+                    <a href="https://wa.me/201234567890" target="_blank" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        Order via WhatsApp
+                    </a>
+                    <a href="tel:+201234567890" class="btn btn-call">
+                        <i class="fas fa-phone"></i>
+                        Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1589302168068-9640c9a4f4be?w=600" alt="Chicken Biryani">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600" alt="Chicken Fried Rice">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=600" alt="Chicken Pakoda">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600" alt="Samosa">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1544145945-f9042544047e?w=600" alt="Mango Lassi">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600" alt="Hummus">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="contact" class="location">
+        <div class="container">
+            <h2 class="section-title">Location</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Serving Cairo</h3>
+                    <p>We deliver to multiple areas across Cairo including:</p>
+                    <ul>
+                        <li>Nasr City</li>
+                        <li>Heliopolis</li>
+                        <li>Maadi</li>
+                        <li>Zamalek</li>
+                        <li>Dokki</li>
+                        <li>6th of October City</li>
+                    </ul>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +20 123 456 7890</p>
+                        <p><i class="fas fa-envelope"></i> info@madmonkeyegypt.com</p>
+                        <p><i class="fas fa-clock"></i> Daily: 11:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.759632526829!2d31.282136074632948!3d30.072423717246135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f0035e51b73%3A0x62e0a6bed6e6aaa7!2sThe%20Mad%20Monkey%20(%20Indian%20%26%20Multi%20Cuisine%20Restaurant%20)!5e0!3m2!1sen!2snp!4v1776708220298!5m2!1sen!2snp%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade"
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-monkey"></i>
+                        <span>Mad Monkey</span>
+                    </div>
+                    <p>Bold Arabic & Indian fusion flavors delivered fresh in Cairo.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#order">Order</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +20 123 456 7890</li>
+                        <li><i class="fas fa-envelope"></i> info@madmonkeyegypt.com</li>
+                        <li><i class="fas fa-clock"></i> Daily: 11:00 AM - 11:00 PM</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Delivery Areas</h3>
+                    <ul>
+                        <li>Nasr City</li>
+                        <li>Heliopolis</li>
+                        <li>Maadi</li>
+                        <li>Zamalek</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 The Mad Monkey. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
